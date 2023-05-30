@@ -1,0 +1,11 @@
+<h1 style = "text-align: center;">Cat Fact Generator</h1>
+<div style="text-align: center;">
+  <button style="margin-left: auto;" (click)="getFact()">Get Cat Fact</button>
+
+</div>
+<div style="text-align: center;" *ngIf="catData">
+  <p>Fact : {{catData.fact}}</p>
+  <p>Length of the string: {{catData.length}}</p>
+
+</div>
+
